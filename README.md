@@ -1,67 +1,130 @@
-# HiddenPixel Image Steganography
+# 🎨 HiddenPixel - Image Steganography
 
-## Overview
-HiddenPixel is a tool for hiding messages within images using steganography techniques. Users can securely encode and decode messages within their favorite images seamlessly.
+<div align="center">
 
-## Features
-- **Encode Messages**: Hide messages within image files without altering their appearance.
-- **Decode Messages**: Extract hidden messages from encoded images.
-- **Support for Various Formats**: Compatible with multiple image formats including PNG, JPEG, and BMP.
+![HiddenPixel](https://img.shields.io/badge/Steganography-Image%20Encryption-blueviolet?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)
+![Flask](https://img.shields.io/badge/Flask-3.1.0-green?style=for-the-badge&logo=flask)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 
-## Setup Instructions
-1. **Clone the Repository**: 
-   ```
-   git clone https://github.com/CS-Chinmay10/HiddenPixel-Image-Steganography.git
-   cd HiddenPixel-Image-Steganography
-   ```
-2. **Install Dependencies**:
-   - Ensure you have Python installed.
-   - Run the following command to install the required packages:
-   ```
-   pip install -r requirements.txt
-   ```
-3. **Run the Application**:
-   ```
-   python main.py
-   ```
+**Hide your secrets in plain sight with advanced image steganography and AES encryption** 👁️‍🗨️
 
-## API Documentation
-- **Encode API**
-  - `POST /encode`
-  - **Parameters**:
-    - `image`: The image file to encode the message into.
-    - `message`: The message to be encoded.
-  - **Response**: Returns the URL of the encoded image.
+[Live Demo](#-quick-start) • [Features](#-features) • [Setup](#-setup) • [API Docs](#-api-documentation) • [How It Works](#-how-it-works)
 
-- **Decode API**
-  - `POST /decode`
-  - **Parameters**:
-    - `image`: The encoded image file from which to extract the message.
-  - **Response**: Returns the hidden message extracted from the image.
-
-## Security Information
-- Ensure the images used are not altered after encoding.
-- Regularly update libraries and dependencies to their latest versions to avoid vulnerabilities.
-
-## Contributing Guidelines
-1. **Fork the Repository**: Create your own fork of the project to contribute.
-2. **Create a Feature Branch**: 
-   ```
-   git checkout -b feature/YourFeature
-   ```
-3. **Commit Your Changes**:
-   ```
-   git commit -m 'Add some feature'
-   ```
-4. **Push the Branch**:
-   ```
-   git push origin feature/YourFeature
-   ```
-5. **Open a Pull Request**.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+</div>
 
 ---
 
-#### Last Updated: 2026-03-10 16:44:45 UTC
+## 📚 Table of Contents
+
+- [Overview](#-overview)
+- [Features](#-features)
+- [Technology Stack](#-technology-stack)
+- [Project Structure](#-project-structure)
+- [Setup & Installation](#-setup--installation)
+- [Usage Guide](#-usage-guide)
+- [API Documentation](#-api-documentation)
+- [How It Works](#-how-it-works)
+- [Security Features](#-security-features)
+- [Interactive Demo](#-interactive-demo)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+---
+
+## 🌟 Overview
+
+**HiddenPixel** is a sophisticated web application that enables you to hide confidential messages within digital images using LSB (Least Significant Bit) steganography combined with AES-256 encryption. The application provides a user-friendly interface to encode secret messages into images and decode them using the correct encryption key.
+
+**Perfect for:**
+- 🔒 Secure message transmission
+- 🤫 Covert communication
+- 📚 Educational purposes
+- 🔐 Data privacy protection
+
+---
+
+## ✨ Features
+
+### Core Features
+
+<table>
+<tr>
+<td>
+
+**🔐 Advanced Encryption**
+- AES-256-CBC encryption
+- SHA-256 key hashing
+- Secure random IV generation
+- Base64 encoding
+
+</td>
+<td>
+
+**🎯 Image Steganography**
+- LSB (Least Significant Bit) embedding
+- Multi-format support (PNG, JPG, JPEG, BMP)
+- Lossless encoding/decoding
+- Automatic message boundary detection
+
+</td>
+</tr>
+<tr>
+<td>
+
+**⚡ User-Friendly Interface**
+- Responsive web design
+- Real-time image preview
+- Password visibility toggle
+- Smooth animations & transitions
+
+</td>
+<td>
+
+**✅ Input Validation**
+- File format checking
+- Image size validation
+- Key strength verification
+- Error handling & recovery
+
+</td>
+</tr>
+<tr>
+<td>
+
+**🌓 Dark/Light Mode**
+- Toggle theme support
+- Persistent theme storage
+- Comfortable viewing experience
+
+</td>
+<td>
+
+**📊 Animations**
+- AOS (Animate On Scroll)
+- Binary text animations
+- Loading spinners
+- Smooth scrolling
+
+</td>
+</tr>
+</table>
+
+---
+
+## 💻 Technology Stack
+
+| Layer | Technologies |
+|-------|---------------|
+| **Backend** | Python 3.8+, Flask 3.1.0 |
+| **Frontend** | HTML5, CSS3, JavaScript (ES6+) |
+| **Encryption** | PyCryptodome 3.22.0, Hashlib |
+| **Image Processing** | Pillow 11.0.0, NumPy 1.23.5 |
+| **Styling** | Bootstrap 5.3, Font Awesome 6.0 |
+| **Animations** | AOS (Animate On Scroll) |
+| **Deployment** | Gunicorn 23.0.0 |
+
+---
+
+## 📁 Project Structure
