@@ -414,7 +414,7 @@ This project is licensed under the **MIT License** — you are free to use, modi
 
 <div align="center">
 
-Made with ❤️ and 🔐 by <a href="https://github.com/AudiChinmay10">AudiChinmay10</a>
+Made with ❤️ and 🔐 by <a href="https://github.com/CS-Chinmay10">CS-Chinmay10</a>
 
 ⭐ **If you found this project useful, please give it a star!** ⭐
 
