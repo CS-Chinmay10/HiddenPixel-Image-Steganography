@@ -223,7 +223,7 @@ Make sure you have the following installed:
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/AudiChinmay10/HiddenPixel-Image-Steganography.git
+git clone https://github.com/CS-Chinmay10/HiddenPixel-Image-Steganography.git
 cd HiddenPixel-Image-Steganography
 ```
 
