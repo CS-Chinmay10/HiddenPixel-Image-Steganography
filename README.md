@@ -402,15 +402,6 @@ Contributions are welcome and appreciated! 🎉
 
 Please follow the existing code style and add relevant tests where applicable. By contributing, you agree to abide by the project's Code of Conduct.
 
----
-
-## 📄 License
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
-
-This project is licensed under the **MIT License** — you are free to use, modify, and distribute this software with attribution. See the [LICENSE](LICENSE) file for details.
-
----
 
 <div align="center">
 
